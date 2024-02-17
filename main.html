@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Example</title>
+  <style>
+    #holder {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .item {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 10px;
+    }
+  </style>
 </head>
-
 <body>
-	<div class="holder">
-		<div>
-			<p>
-				shailesh
-			</p>
-		</div>
-		<div>
-
-			
-		</div>
-		
-	</div>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div id="holder">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+    <!-- Add more items here if needed -->
+  </div>
 </body>
-
 </html>
